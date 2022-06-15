@@ -18,6 +18,9 @@ pwsh
 
 ## todos
 
+### misc 
+* [ ] add try/catch + success/failure codes
+
 ### dates 
 * [ ] 
 * [ ] 
