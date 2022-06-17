@@ -1,11 +1,20 @@
-
-
-
-
 <#
 Functions to deal with standard input/output
 #>
 
+
+<#
+.SYNOPSIS
+	Get local environment variables.
+.DESCRIPTION
+	Gets common environment variables.
+.EXAMPLE
+	PS> ./get-env
+.LINK
+	https://github.com/davidthecolorbrown/powershell_scripts/
+.NOTES
+	
+#>
 
 #
 function print ($STRING) 
