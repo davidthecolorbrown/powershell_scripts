@@ -4,7 +4,7 @@
 .DESCRIPTION
 	Send an email message. Assumes email address for user and their email app password at already set as local env variables ('EMAIL_USER', 'EMAIL_HOST_PASSWORD')
 .EXAMPLE
-	PS> ./send-email
+	PS> ./send_email
 .LINK
 	https://github.com/fleschutz/PowerShell
 .NOTES
@@ -49,6 +49,7 @@ try {
 #
 catch {
 	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
+    #Write-Output $Error.ExceptionMessage
     # failure
 	exit 1
 }
