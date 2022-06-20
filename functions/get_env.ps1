@@ -46,3 +46,7 @@ function get_email_env
 	Write-Output $USER 
 	Write-Output $PW
 }
+
+# set environment var
+#([System.Environment]::SetEnvironmentVariables("EMAIL_USER", "NEW_USER_EMAIL"))
+#([System.Environment]::SetEnvironmentVariables("EMAIL_HOST_PASSWORD", "NEW_APP_PW"))
