@@ -42,7 +42,7 @@ try {
 # if fail to send email, print error
 catch {
     # failure
-	#"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
+	#"Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
     Write-Output $Error.ExceptionMessage
 	exit 1
 }
